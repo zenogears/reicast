@@ -1,0 +1,14 @@
+Source: reicast
+Section: games
+Priority: extra
+Maintainer: Oleg Asonov <oleg.asonov@flant.ru>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.4
+Homepage: http://zenninja.ru
+
+Package: reicast
+Architecture: all
+Depends: zenity, python
+Description: Dreamcast, in your pocket
+ reicast is a sega dreamcast emulator for linux !
+ 

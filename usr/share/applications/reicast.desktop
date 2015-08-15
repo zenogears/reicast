@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=reicast
+Comment=reicast
+TryExec=reucast
+Exec=reicast
+Icon=reicast
+Type=Application
+Categories=Games;
