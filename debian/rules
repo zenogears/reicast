@@ -11,4 +11,4 @@
 
 %:
 	dh $@ 
-	dpkg-shlibdeps debian/tmp/usr/share/reicast/*
+	dpkg-shlibdeps debian/reicast/usr/share/reicast/*
