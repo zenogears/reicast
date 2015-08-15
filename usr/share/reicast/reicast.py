@@ -4,13 +4,15 @@
 from Tkinter import *
 import tkFileDialog
 import tkMessageBox
-import os
+import os, sys, subprocess
 import getpass
 
 conf_dir_path = "/home/" + getpass.getuser() + "/.reicast"
 
 def start():
-  os.system('/usr/bin/reicast.elf')
+  subprocess.Popen('/usr/share/reicast/reicast.elf')
+  sys.exit(0)
+  
 
 def open_iso():
   if not os.path.exists(conf_dir_path):
