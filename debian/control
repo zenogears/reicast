@@ -8,7 +8,7 @@ Homepage: http://zenninja.ru
 
 Package: reicast
 Architecture: amd64
-Depends: zenity, python3
+Depends: ${shlibs:Depends}, ${misc:Depends}, zenity, python3, libasound2, libegl1-mesa, libgles2-mesa
 Description: Dreamcast, in your pocket
  reicast is a sega dreamcast emulator for linux !
  

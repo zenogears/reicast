@@ -8,7 +8,7 @@ clean:
 
 install:
 	install -d $(DESTDIR)/usr/bin
-	install $(CURDIR)/usr/share/bin/reicast $(DESTDIR)/usr/bin
+	install $(CURDIR)/usr/bin/reicast $(DESTDIR)/usr/bin
 	cp -r $(CURDIR)/usr/share $(DESTDIR)/usr/share
 
 uninstall:
