@@ -1,1 +1,3 @@
-libGL 1 libGL
+libGL 1 libgl1-mesa-glx
+libX11 6 libx11-6
+libasound 2 libasound2
